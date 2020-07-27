@@ -7,4 +7,4 @@ def create_playlist(win,tracks=[]):
     canvas.pack()
 
 create_playlist(tk.Tk())
-tk.mainloop()j
+tk.mainloop()
