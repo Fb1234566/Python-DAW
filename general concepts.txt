@@ -1,0 +1,8 @@
+Daw:
+Features:
+-infinite mixer and track number
+-vst support
+-recording support
+-built in effects
+-themable
+-well optimized(multithreading)
