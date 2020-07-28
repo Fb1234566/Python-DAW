@@ -26,10 +26,3 @@ def create_playlist(win,tracks=[['nome1'],['nome2'],['nome3'],['nome4']]):
         cerate_track(playlist, i, tracks[i])
     playlist.place(relheight=1, relwidth=1)
     playlist_frame.place(relheight=0.85, relwidth=0.85, relx=0.15, rely=0.15)  
-win=tk.Tk()
-win.attributes('-fullscreen', True)
-create_playlist(win)
-browser.create_browser(win)
-toolbar.create_toolbar(win)
-
-tk.mainloop()
